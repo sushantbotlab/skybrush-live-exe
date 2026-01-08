@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_skybrush_live=self.webpackChunk_skybrush_live||[]).push([[424],{50424:(e,s,r)=>{r.d(s,{default:()=>l});var u=r(89969),k=r(42132);class l extends k.A{decodeBlock(e){return(0,u.UD)(new Uint8Array(e)).buffer}}}}]);

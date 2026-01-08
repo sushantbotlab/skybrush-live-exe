@@ -1,0 +1,7 @@
+/**
+ * @license
+ * Copyright 2010-2023 Three.js Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+// under the accompanying license; see chapter 5.1.5 for detailed explanation.

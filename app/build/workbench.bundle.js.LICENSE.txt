@@ -1,0 +1,50 @@
+/* .getLicensedLayers */
+
+/* .hasLicenseWithProFeatures */
+
+/* clearServerLicense */
+
+/* closeLicenseInfoDialog */
+
+/* getLicensedLayerById */
+
+/* setServerLicense */
+
+/* showLicenseInfoDialog */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */
+
+/**
+         * Clears the information about the currently active license on the server.
+         */
+
+/**
+         * Sets the information about the currently active license on the server.
+         */
+
+/**
+ * @file Slice of the state object that stores the status of the license
+ * information dialog.
+ */
+
+/**
+ * Presentation component for the dialog that allows the user to retrieve the
+ * information about the license on the server.
+ */
+
+/**
+ * Returns the current license object from the server.
+ */
+
+/**
+ * Selector that retrieves the list of layers filtered by the currently active
+ * license of the connected server.
+ */
+
+// ./src/features/license-info/LicenseInfoDialog.jsx
+
+// ./src/features/license-info/LicenseInfoPanel.jsx
+
+// We do not wish to store the state of the license check, only whether the
+
+// license info dialog is open

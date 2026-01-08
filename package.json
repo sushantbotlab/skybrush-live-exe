@@ -1,0 +1,27 @@
+{
+  "name": "skybrush-live",
+  "version": "2.12.1",
+  "private": true,
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --x64"
+  },
+  "devDependencies": {
+    "electron": "28.3.3",
+    "electron-builder": "24.13.3"
+  },
+  "build": {
+    "appId": "io.skybrush.live",
+    "productName": "Skybrush Live",
+    "asar": true,
+    "files": [
+      "electron/**/*",
+      "app/build/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
+
